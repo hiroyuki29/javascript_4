@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <!-- jqueryで実装する場合 -->
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="slide_show.css">
+  <title>スライドショー</title>
+</head>
+
+<body>
+  <h3>スライドショー</h3>
+
+  <!-- ここに記述していきましょう！ -->
+  <div class="container">
+    <ul class="slide_show">
+      <li>
+        <img src="tokyo.jpg">
+        <p>Tokyo</p>
+      </li>
+      <li>
+        <img src="fukuoka.jpg">
+        <p>fukuoka</p>
+      </li>
+      <li>
+        <img src="okinawa.jpg">
+        <p>okinawa</p>
+      </li>
+    </ul>
+    <p>2秒毎に自動でスライドします。</p>
+    <p>矢印をクリックするとスライドが切り替わります。</p>
+  </div>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="slide_show.js"></script>
+</body>
+
+</html>
